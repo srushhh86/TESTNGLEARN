@@ -1,5 +1,7 @@
 package package1;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
@@ -11,6 +13,10 @@ public class ContactTest {
 		String browser=System.getProperty("browser");
 		String username=System.getProperty("username");
 		String password=System.getProperty("password");
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.get(url);
+		
 		
 		System.out.println(url);
 		System.out.println(browser);
