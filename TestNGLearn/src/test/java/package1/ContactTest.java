@@ -21,6 +21,7 @@ public class ContactTest {
 	public void runnewTest()
 	{
 		System.out.println("run new test");
+		System.out.println("run second");
 	}
 
 }
