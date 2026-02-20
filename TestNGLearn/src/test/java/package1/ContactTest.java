@@ -1,6 +1,7 @@
 package package1;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class ContactTest {
 	@Test

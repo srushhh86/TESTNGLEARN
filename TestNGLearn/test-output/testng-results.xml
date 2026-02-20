@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-20T10:41:24 IST" name="Default suite" finished-at="2026-02-20T10:41:24 IST" duration-ms="22">
+  <suite started-at="2026-02-20T11:14:08 IST" name="Default suite" finished-at="2026-02-20T11:14:08 IST" duration-ms="18">
     <groups>
     </groups>
-    <test started-at="2026-02-20T10:41:24 IST" name="Default test" finished-at="2026-02-20T10:41:24 IST" duration-ms="22">
+    <test started-at="2026-02-20T11:14:08 IST" name="Default test" finished-at="2026-02-20T11:14:08 IST" duration-ms="18">
       <class name="package1.ContactTest">
-        <test-method signature="runTest()[pri:0, instance:package1.ContactTest@6069db50]" started-at="2026-02-20T10:41:24 IST" name="runTest" finished-at="2026-02-20T10:41:24 IST" duration-ms="4" status="PASS">
+        <test-method signature="runTest()[pri:0, instance:package1.ContactTest@6069db50]" started-at="2026-02-20T11:14:08 IST" name="runTest" finished-at="2026-02-20T11:14:08 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method signature="runnewTest()[pri:0, instance:package1.ContactTest@6069db50]" started-at="2026-02-20T10:41:24 IST" name="runnewTest" finished-at="2026-02-20T10:41:24 IST" duration-ms="1" status="PASS">
+        <test-method signature="runnewTest()[pri:0, instance:package1.ContactTest@6069db50]" started-at="2026-02-20T11:14:08 IST" name="runnewTest" finished-at="2026-02-20T11:14:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runnewTest -->

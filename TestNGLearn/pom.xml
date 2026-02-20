@@ -80,7 +80,7 @@
 	</profile>
 	
 	<profile>
-	<id>New</id>
+	<id>RT</id>
 	<build>
     <plugins>
         <plugin>
@@ -89,7 +89,7 @@
             <version>3.2.5</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>testngnew.xml</suiteXmlFile>
+                    <suiteXmlFile>Regression.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
