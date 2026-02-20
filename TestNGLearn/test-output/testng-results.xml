@@ -1,54 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T13:16:09 IST" name="Default suite" finished-at="2026-02-17T13:16:09 IST" duration-ms="26">
+  <suite started-at="2026-02-20T10:41:24 IST" name="Default suite" finished-at="2026-02-20T10:41:24 IST" duration-ms="22">
     <groups>
-      <group name="smoke">
-        <method signature="DependsOnTest.createcontact()[pri:0, instance:practice.testng.DependsOnTest@6cf0e0ba]" name="createcontact" class="practice.testng.DependsOnTest"/>
-        <method signature="DependsOnTest.modifycontactTest()[pri:0, instance:practice.testng.DependsOnTest@6cf0e0ba]" name="modifycontactTest" class="practice.testng.DependsOnTest"/>
-        <method signature="DependsOnTest.deleteContactTest()[pri:0, instance:practice.testng.DependsOnTest@6cf0e0ba]" name="deleteContactTest" class="practice.testng.DependsOnTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-02-17T13:16:09 IST" name="Default test" finished-at="2026-02-17T13:16:09 IST" duration-ms="26">
-      <class name="practice.testng.ContactTest">
-        <test-method signature="createcontact()[pri:1, instance:practice.testng.ContactTest@77fbd92c]" started-at="2026-02-17T13:16:09 IST" name="createcontact" finished-at="2026-02-17T13:16:09 IST" duration-ms="4" status="PASS">
+    <test started-at="2026-02-20T10:41:24 IST" name="Default test" finished-at="2026-02-20T10:41:24 IST" duration-ms="22">
+      <class name="package1.ContactTest">
+        <test-method signature="runTest()[pri:0, instance:package1.ContactTest@6069db50]" started-at="2026-02-20T10:41:24 IST" name="runTest" finished-at="2026-02-20T10:41:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createcontact -->
-        <test-method signature="modifycontactTest()[pri:2, instance:practice.testng.ContactTest@77fbd92c]" started-at="2026-02-17T13:16:09 IST" name="modifycontactTest" finished-at="2026-02-17T13:16:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- runTest -->
+        <test-method signature="runnewTest()[pri:0, instance:package1.ContactTest@6069db50]" started-at="2026-02-20T10:41:24 IST" name="runnewTest" finished-at="2026-02-20T10:41:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifycontactTest -->
-        <test-method signature="deleteContactTest()[pri:3, instance:practice.testng.ContactTest@77fbd92c]" started-at="2026-02-17T13:16:09 IST" name="deleteContactTest" finished-at="2026-02-17T13:16:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteContactTest -->
-      </class> <!-- practice.testng.ContactTest -->
-      <class name="practice.testng.SampleTest">
-        <test-method signature="test2()[pri:0, instance:practice.testng.SampleTest@4f83df68]" started-at="2026-02-17T13:16:09 IST" name="test2" finished-at="2026-02-17T13:16:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test1()[pri:0, instance:practice.testng.SampleTest@4f83df68]" started-at="2026-02-17T13:16:09 IST" name="test1" finished-at="2026-02-17T13:16:09 IST" depends-on-methods="practice.testng.SampleTest.test2" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- practice.testng.SampleTest -->
-      <class name="practice.testng.DependsOnTest">
-        <test-method signature="createcontact()[pri:0, instance:practice.testng.DependsOnTest@6cf0e0ba]" started-at="2026-02-17T13:16:09 IST" name="createcontact" finished-at="2026-02-17T13:16:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createcontact -->
-        <test-method signature="modifycontactTest()[pri:0, instance:practice.testng.DependsOnTest@6cf0e0ba]" started-at="2026-02-17T13:16:09 IST" name="modifycontactTest" finished-at="2026-02-17T13:16:09 IST" depends-on-methods="practice.testng.DependsOnTest.createcontact" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifycontactTest -->
-        <test-method signature="deleteContactTest()[pri:0, instance:practice.testng.DependsOnTest@6cf0e0ba]" started-at="2026-02-17T13:16:09 IST" name="deleteContactTest" finished-at="2026-02-17T13:16:09 IST" depends-on-methods="practice.testng.DependsOnTest.modifycontactTest" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteContactTest -->
-      </class> <!-- practice.testng.DependsOnTest -->
+        </test-method> <!-- runnewTest -->
+      </class> <!-- package1.ContactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
