@@ -14,8 +14,7 @@ public class ContactTest {
 		String username=System.getProperty("username");
 		String password=System.getProperty("password");
 		
-		WebDriver driver=new FirefoxDriver();
-		driver.get(url);
+
 		
 		
 		System.out.println(url);
